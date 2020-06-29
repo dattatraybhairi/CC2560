@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2778921745</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Board.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ccfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main_nortos.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\CC26X2R1_LAUNCHXL_fxns.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\CC26X2R1_LAUNCHXL.o</file>
+            <file>$PROJ_DIR$\main_nortos.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\CC26X2R1_LAUNCHXL_fxns.o</file>
+            <file>$PROJ_DIR$\README.md</file>
+            <file>$PROJ_DIR$\Debug\Obj\CC26X2R1_LAUNCHXL.xcl</file>
+            <file>$PROJ_DIR$\smartrf_settings\smartrf_settings.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\smartrf_settings.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\rfPacketTx.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\rfPacketTx.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\rfPacketTx.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\main_nortos.xcl</file>
+            <file>$PROJ_DIR$\CC26X2R1_LAUNCHXL.h</file>
+            <file>$PROJ_DIR$\CC26X2R1_LAUNCHXL.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\rfPacketTx.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\smartrf_settings.o</file>
+            <file>$PROJ_DIR$\ccfg.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\rfPacketTx.hex</file>
+            <file>$PROJ_DIR$\Debug\Obj\ccfg.xcl</file>
+            <file>$PROJ_DIR$\rfPacketTx.c</file>
+            <file>$PROJ_DIR$\CC26X2R1_LAUNCHXL_fxns.c</file>
+            <file>$PROJ_DIR$\smartrf_settings\smartrf_settings.c</file>
+            <file>$PROJ_DIR$\rfPacketTx_CC26X2R1_LAUNCHXL_NoRTOS.icf</file>
+            <file>$COM_TI_SIMPLELINK_CC13X2_26X2_SDK_INSTALL_DIR$\source\ti\boards\CC26X2R1_LAUNCHXL\Board.html</file>
+            <file>$PROJ_DIR$\Debug\Obj\CC26X2R1_LAUNCHXL.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\CC26X2R1_LAUNCHXL_fxns.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main_nortos.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\rfPacketTx.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ccfg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\smartrf_settings.__cstat.et</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main_nortos.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\rfPacketTx.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CC26X2R1_LAUNCHXL.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ccfg.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rfPacketTx.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CC26X2R1_LAUNCHXL_fxns.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\smartrf_settings\smartrf_settings.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

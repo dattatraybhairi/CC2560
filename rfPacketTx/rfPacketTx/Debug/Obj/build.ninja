@@ -1,0 +1,35 @@
+#Generating source browse information for project rfPacketTx
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build CC26X2R1_LAUNCHXL.pbi : index CC26X2R1_LAUNCHXL.xcl
+build CC26X2R1_LAUNCHXL_fxns.pbi : index CC26X2R1_LAUNCHXL_fxns.xcl
+build ccfg.pbi : index ccfg.xcl
+build main_nortos.pbi : index main_nortos.xcl
+build rfPacketTx.pbi : index rfPacketTx.xcl
+build smartrf_settings.pbi : index smartrf_settings.xcl
+build rfPacketTx_part0.pbi : link CC26X2R1_LAUNCHXL.pbi CC26X2R1_LAUNCHXL_fxns.pbi
+build rfPacketTx_part1.pbi : link ccfg.pbi main_nortos.pbi
+build rfPacketTx_part2.pbi : link rfPacketTx.pbi smartrf_settings.pbi
+build rfPacketTx.pbd : link rfPacketTx_part0.pbi rfPacketTx_part1.pbi rfPacketTx_part2.pbi
+build rfPacketTx.pbw : browsedata rfPacketTx.pbd
+
+
